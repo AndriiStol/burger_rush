@@ -5,5 +5,6 @@ public class PartSize : MonoBehaviour
 {
     public IntReactiveProperty size { get; private set; } = new IntReactiveProperty(1);
 
-    // Другие методы и логика для изменения размера части тела
+    // Г„Г°ГіГЈГЁГҐ Г¬ГҐГІГ®Г¤Г» ГЁ Г«Г®ГЈГЁГЄГ  Г¤Г«Гї ГЁГ§Г¬ГҐГ­ГҐГ­ГЁГї Г°Г Г§Г¬ГҐГ°Г  Г·Г Г±ГІГЁ ГІГҐГ«Г 
+    
 }
