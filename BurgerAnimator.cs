@@ -13,10 +13,8 @@ public class BurgerAnimator : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        // Проверяем, соприкасается ли коллайдер этого объекта с коллайдером персонажа
         if (other.CompareTag("Player"))
         {
-            // Активируем анимацию "go"
             anim.SetTrigger("Go");
             sizeText.SetActive(false);
 
