@@ -6,8 +6,8 @@ public class ToggleSoundButton : MonoBehaviour
     private Button toggleButton;
     private Image buttonImage;
 
-    public Sprite soundEnabledImage; // Спрайт для кнопки при включенном звуке
-    public Sprite soundDisabledImage; // Спрайт для кнопки при выключенном звуке
+    public Sprite soundEnabledImage;
+    public Sprite soundDisabledImage; 
 
     private void Start()
     {
