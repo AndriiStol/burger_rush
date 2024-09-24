@@ -3,10 +3,10 @@ using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour
 {
-    public string sceneName; // Имя сцены для загрузки
+    public string sceneName; 
 
     public void LoadScene()
     {
-        SceneManager.LoadScene(sceneName); // Загружаем сцену по имени
+        SceneManager.LoadScene(sceneName); 
     }
 }
