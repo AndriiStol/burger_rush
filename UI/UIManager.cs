@@ -101,7 +101,7 @@ public class UIManager : MonoBehaviour
         isPaused = !isPaused;
         if (isPaused)
         {
-            // Включаем паузу.
+            
             scena.SetActive(true);
             background.SetActive(true);
             Time.timeScale = 0;
@@ -109,7 +109,7 @@ public class UIManager : MonoBehaviour
         }
         else
         {
-            // Выключаем паузу.
+            
             scena.SetActive(false);
             background.SetActive(false);
             Time.timeScale = 1;
