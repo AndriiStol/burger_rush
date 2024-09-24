@@ -10,11 +10,11 @@ public class CameraController : MonoBehaviour
     [SerializeField] private Vector3 minPosition;
     [SerializeField] private Vector3 maxPosition;
     [SerializeField] private Vector3 winPosition;
-    [SerializeField] private Vector3 winRotation; // Добавлено поле для задания позиции при победе
+    [SerializeField] private Vector3 winRotation; 
     [SerializeField] private Vector3 losePosition;
-    [SerializeField] private Vector3 loseRotation; // Добавлено поле для задания позиции при победе
+    [SerializeField] private Vector3 loseRotation; 
     [SerializeField] private Vector3 blevotinaPosition;
-    [SerializeField] private Vector3 blevotinaRotation; // Добавлено поле для задания позиции при получении "blevotina"
+    [SerializeField] private Vector3 blevotinaRotation; 
     private float progress;
 
     private void OnEnable()
